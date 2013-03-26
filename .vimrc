@@ -6,3 +6,10 @@ set mouse=r
 syntax on
 set ruler
 set background=dark
+
+" completion in command line
+set wildmode=longest,list,full
+set wildmenu
+
+" easier buffer switching
+nnoremap <F5> :buffers<CR>:buffer<Space>
